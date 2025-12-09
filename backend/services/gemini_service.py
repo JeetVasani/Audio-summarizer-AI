@@ -16,6 +16,9 @@ def create_summary(text):
 
 def ask_question(transcript, question):
     prompt = (
+        f"You are a strict assistant. You can ONLY answer using the transcript below.\n\n"
+        f"If the user's question is outside this transcript's content, reply with:\n\n"
+        f"Sorry, I can only answer questions related to the uploaded audio.\n\n"
         f"You are answering based ONLY on this transcript.\n\n"
         f"Transcript:\n{transcript}\n\n"
         f"Question: {question}\n\n"

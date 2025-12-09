@@ -1,7 +1,7 @@
 # environment files
 .env
 
-*.mp3
+audio.mp3
 
 __pycache__/
 *.pyc
