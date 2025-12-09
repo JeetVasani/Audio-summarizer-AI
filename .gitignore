@@ -1,1 +1,12 @@
+# environment files
 .env
+
+*.mp3
+
+__pycache__/
+*.pyc
+
+# editor folders
+.vscode/
+.idea/
+
