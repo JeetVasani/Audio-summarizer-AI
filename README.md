@@ -20,6 +20,9 @@ It’s ideal for converting long podcasts, lectures, interviews, or recordings i
 - Easy to use via a web-based (or simple CLI/web) interface.  
 - Quick setup and lightweight dependencies (Python backend + minimal frontend stack).  
 
+## Working demo
+https://github.com/user-attachments/assets/a76d50b7-2a40-4b44-a605-e9cc910edae9
+
 ##  Tech Stack
 
 - **Backend:** Python, FastAPI. Fast Whisper for speech-to-text, Gemini api for chatbot
@@ -61,8 +64,6 @@ curl -X POST "http://localhost:8000/api/ask_question" \
   -H "Content-Type: application/json" \
   -d '{"question": "your question"}'
 ```
-## Working demo
-https://github.com/user-attachments/assets/a76d50b7-2a40-4b44-a605-e9cc910edae9
 
 ## Installation
 
